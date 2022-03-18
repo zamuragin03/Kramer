@@ -64,19 +64,19 @@ namespace Kramer
             temp.WriteLine("a(x)=b\n");
             for (int i = 0; i <4; i++)
             {
-                temp.Write($"{a[i]}  ");
+                temp.Write($"{a[i]} ");
             }
             temp.WriteLine();
 
-            for (int i = 5; i < 8; i++)
+            for (int i = 4; i < 8; i++)
             {
-                temp.Write($"{a[i]}  ");
+                temp.Write($"{a[i]} ");
             }
 
             temp.WriteLine();
             for (int i = 8; i < 12; i++)
             {
-                temp.Write($"{a[i]}  ");
+                temp.Write($"{a[i]} ");
             }
             temp.WriteLine();
             if (Checker())
